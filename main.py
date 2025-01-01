@@ -92,7 +92,7 @@ class ImageTextExtractor(QWidget):
         self.setLayout(layout)
     
     def open_camera(self):
-        self.cap = cv2.VideoCapture(0)
+        self.cap = cv2.VideoCapture(1)
         if not self.cap.isOpened():
             QMessageBox.critical(self, "Error", "Cannot open camera")
         else:
@@ -113,7 +113,7 @@ class ImageTextExtractor(QWidget):
                 self.panel.setPixmap(pixmap)
                 self.camera_running = False
                 self.cap.release()
-                self.timer.stop()
+                self.timer.stop()   
                 QMessageBox.information(self, "Image Captured", "Image has been captured successfully.")
             else:
                 QMessageBox.critical(self, "Error", "Failed to capture image.")
