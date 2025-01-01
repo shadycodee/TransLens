@@ -15,6 +15,7 @@ TransLens is a camera text translation application developed as part of a group 
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/329c38b1-06a1-4aad-a9f2-fff251e1020f)
-![image](https://github.com/user-attachments/assets/ea891b21-3341-4619-8eb9-d7320207e09c)
+![image](https://github.com/user-attachments/assets/7979797f-1317-4f20-a3bc-c7c9cd8ab149)
+
 
 
